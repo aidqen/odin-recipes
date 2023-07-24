@@ -6,15 +6,18 @@ body{
     background-image: url(../../../../Pictures/food_photos/Stir-fry-recipes-aab9292.png);
 }
 
+#title{
+    text-decoration: underline;
+    font-size: 60px;
+}
+
+#introduction{
+font-size: 15px;
+}
 
 ul{
     list-style: none;
 }
 ol{
     list-style: none;
-}
-.bordered-list{
-    border: 2px solid rgb(255, 255, 255);
-    padding: 5px;
-    margin: 0 -1em;
 }
