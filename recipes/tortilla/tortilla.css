@@ -1,0 +1,71 @@
+body{
+    text-align: center;
+    list-style: none;
+    background-image: url(../../../../Pictures/food_photos/tortilla.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 25px;
+    color: white;
+}
+.ingredients{
+    list-style: none;
+    margin-top: 120px;
+}
+
+.steps{
+    list-style: none;
+    margin-top: 120px;
+}
+
+#title{
+ text-decoration: underline;
+font-size: 75px;
+}
+
+
+h2{
+    text-decoration: underline;
+}
+.introduction {
+    font-size: 18px;
+}
+#ingredients-b{
+    background-color: orangered;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold; 
+    position: relative;
+    white-space: 5;
+}
+
+#steps-b{
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    list-style: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold; 
+    white-space: 5;
+    position: relative;
+    text-decoration: none;
+}
+a{
+   
+   color:black
+}
+p{
+    margin: 15px;
+}
+
+#ingredients{
+    list-style: none;
+}
