@@ -13,19 +13,47 @@ letter-spacing: 5px;
 .first_p{
     font-size: large;
 }
+p{
+    display: block ;
+}
 
 *{
-    color:white
+    color:white;
 }
 Body{
     text-align: center; 
     font-weight: lighter;
-    background-image: url(../../Pictures/food_photos/BEEF_CUTS.png);
+    background-color: rgb(22, 22, 22);
     background-repeat: no-repeat;
     background-size: cover;
     font-family:Arial, Helvetica, sans-serif
 }
 button{
-    background-color: transparent;
+    background-color: rgb(0, 15, 25);
     font-style: italic;
+    padding: 10px 25px;
+    border-bottom: 2px solid white;
+}
+
+.stirfry-b::after{
+    content: "/a";
+    white-space: pre;
+}
+
+img{
+    width: 200px;
+}
+
+.container-all{
+padding:20px;
+border: 1px solid white;
+}
+
+.container-images,.container-button{
+    display:flex;
+    margin: 50px;
+    justify-content: space-around;
+    height:150px;
+    align-items: center;
+    
 }
